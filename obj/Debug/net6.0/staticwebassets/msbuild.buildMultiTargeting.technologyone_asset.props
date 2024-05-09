@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\technologyone_asset.props" />
+</Project>
