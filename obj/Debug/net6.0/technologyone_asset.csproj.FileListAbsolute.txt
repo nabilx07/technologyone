@@ -30,3 +30,4 @@ C:\Users\NABIL\source\repos\technologyone_asset\technologyone_asset\obj\Debug\ne
 C:\Users\NABIL\source\repos\technologyone_asset\technologyone_asset\obj\Debug\net6.0\technologyone_asset.pdb
 C:\Users\NABIL\source\repos\technologyone_asset\technologyone_asset\obj\Debug\net6.0\technologyone_asset.genruntimeconfig.cache
 C:\Users\NABIL\source\repos\technologyone_asset\technologyone_asset\obj\Debug\net6.0\ref\technologyone_asset.dll
+C:\Users\NABIL\source\repos\technologyone_asset\technologyone_asset\bin\Debug\net6.0\technologyone_asset.staticwebassets.runtime.json

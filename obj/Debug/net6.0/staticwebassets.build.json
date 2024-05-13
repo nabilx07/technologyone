@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "4m+Hch9msMPSLOV2bX26UGGaFlglPGGj6RDXLyB1f8Q=",
+  "Hash": "yq9vylzm0UT153ncIHcp1UDGqrV1qyPIAtiHlgpQBd8=",
   "Source": "technologyone_asset",
   "BasePath": "_content/technologyone_asset",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "technologyone_asset\\wwwroot",
+      "Source": "technologyone_asset",
+      "ContentRoot": "C:\\Users\\NABIL\\source\\repos\\technologyone_asset\\technologyone_asset\\wwwroot\\",
+      "BasePath": "_content/technologyone_asset",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\NABIL\\source\\repos\\technologyone_asset\\technologyone_asset\\wwwroot\\APItester.html",
+      "SourceId": "technologyone_asset",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NABIL\\source\\repos\\technologyone_asset\\technologyone_asset\\wwwroot\\",
+      "BasePath": "_content/technologyone_asset",
+      "RelativePath": "APItester.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\APItester.html"
+    }
+  ]
 }

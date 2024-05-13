@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number to Words Converter</title>
+</head>
+<body>
+    <h1>Number to Words Converter</h1>
+    <form id="converterForm">
+        <input type="text" id="numberInput" placeholder="Enter a number">
+        <button type="button" onclick="convertNumber()">Convert</button>
+    </form>
+    <div id="result"></div>
+
+    <script>
+        function convertNumber() {
+            var number = document.getElementById('numberInput').value;
+            fetch('http://localhost:5257/api/NumberConvert', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ number: number })
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerText = data.result;
+            })
+            .catch(error => console.error('Error:', error));
+        }
+    </script>
+</body>
+</html>

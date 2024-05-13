@@ -21,8 +21,9 @@
     },
     "IIS Express": {
       "commandName": "IISExpress",
+      "applicationUrl": "http://localhost:5257",
       "launchBrowser": true,
-      "launchUrl": "swagger",
+      "launchUrl": "APItester.html",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
